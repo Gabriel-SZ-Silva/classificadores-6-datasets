@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest>=8
+ruff>=0.5
+playwright>=1.45  # só para scripts/capturar_telas.py (depois: python -m playwright install chromium)

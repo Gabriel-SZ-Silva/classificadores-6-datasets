@@ -1,0 +1,7 @@
+# Dependências de execução, espelhando pyproject.toml.
+# Para desenvolvimento (testes, lint, capturas de tela): pip install -r requirements-dev.txt
+scikit-learn>=1.4,<2
+pandas>=2.0,<4
+numpy>=1.26,<3
+scipy>=1.11,<2
+matplotlib>=3.8,<4

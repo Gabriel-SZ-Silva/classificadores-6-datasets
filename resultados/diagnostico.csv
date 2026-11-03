@@ -1,0 +1,25 @@
+Dataset,Modelo,F1 treino (CV),F1 validação (CV),Gap,Diagnóstico
+Câncer de Mama,Decision Tree,0.9836877698328012,0.9371077162790955,0.04658005355370565,Equilibrado
+Câncer de Mama,Random Forest,0.9958869990372206,0.9601192096885983,0.035767789348622236,Equilibrado
+Câncer de Mama,Gradient Boosting,1.0,0.9668470478374258,0.03315295216257419,Equilibrado
+Câncer de Mama,SVM,0.9822481530127884,0.9738136201075328,0.008434532905255643,Equilibrado
+Eleições (Literary Digest),Decision Tree,0.9112407673016033,0.8419799790852422,0.06926078821636106,Equilibrado
+Eleições (Literary Digest),Random Forest,1.0,0.7947236675779756,0.20527633242202437,Alta variância (overfitting)
+Eleições (Literary Digest),Gradient Boosting,0.9587162147560608,0.8055039549234804,0.15321225983258047,Alta variância (overfitting)
+Eleições (Literary Digest),SVM,0.8885812718814836,0.8047041847041847,0.08387708717729891,Equilibrado
+Fishmorph (Ordem),Decision Tree,0.9664730133898101,0.4946352122488632,0.47183780114094687,Alta variância (overfitting)
+Fishmorph (Ordem),Random Forest,0.9308777621655342,0.6406545468695282,0.29022321529600603,Alta variância (overfitting)
+Fishmorph (Ordem),Gradient Boosting,1.0,0.6214876421995934,0.3785123578004066,Alta variância (overfitting)
+Fishmorph (Ordem),SVM,0.9313676041463598,0.6376447586731084,0.29372284547325134,Alta variância (overfitting)
+Cardiopatia,Decision Tree,0.8540744087956007,0.8276901838948583,0.026384224900742437,Equilibrado
+Cardiopatia,Random Forest,0.9024969918936823,0.856019239079717,0.04647775281396527,Equilibrado
+Cardiopatia,Gradient Boosting,1.0,0.8669240844439656,0.13307591555603437,Alta variância (overfitting)
+Cardiopatia,SVM,0.8549756717928287,0.8510408787967083,0.003934792996120429,Equilibrado
+Estresse Estudantil,Decision Tree,0.8970197427366807,0.8853696381411161,0.011650104595564592,Equilibrado
+Estresse Estudantil,Random Forest,0.9841568342890163,0.8855320477894523,0.09862478649956408,Equilibrado
+Estresse Estudantil,Gradient Boosting,1.0,0.8873249419674464,0.11267505803255362,Alta variância (overfitting)
+Estresse Estudantil,SVM,1.0,0.8827164745101899,0.11728352548981014,Alta variância (overfitting)
+Ultimate Pokémon,Decision Tree,0.6300007663551973,0.20112941709287208,0.42887134926232523,Viés e variância altos
+Ultimate Pokémon,Random Forest,0.9791279540515818,0.25196605745185063,0.7271618965997312,Alta variância (overfitting)
+Ultimate Pokémon,Gradient Boosting,1.0,0.2463849791840647,0.7536150208159353,Alta variância (overfitting)
+Ultimate Pokémon,SVM,0.8913705967467648,0.23833526381431094,0.6530353329324539,Alta variância (overfitting)

@@ -1,0 +1,587 @@
+{
+  "gerado_em": "2026-11-02T22:13:08",
+  "datasets": {
+    "Câncer de Mama": {
+      "linhas": 569,
+      "atributos": 30,
+      "classes": 2
+    },
+    "Eleições (Literary Digest)": {
+      "linhas": 145,
+      "atributos": 6,
+      "classes": 2
+    },
+    "Fishmorph (Ordem)": {
+      "linhas": 8304,
+      "atributos": 10,
+      "classes": 23
+    },
+    "Cardiopatia": {
+      "linhas": 918,
+      "atributos": 11,
+      "classes": 2
+    },
+    "Estresse Estudantil": {
+      "linhas": 1100,
+      "atributos": 20,
+      "classes": 3
+    },
+    "Ultimate Pokémon": {
+      "linhas": 1025,
+      "atributos": 21,
+      "classes": 18
+    }
+  },
+  "metricas": [
+    {
+      "Dataset": "Câncer de Mama",
+      "Modelo": "Decision Tree",
+      "Acurácia": 0.8859649123,
+      "Precisão": 0.8788840628,
+      "Recall": 0.875,
+      "F1": 0.8768591608,
+      "ROC AUC": 0.8958333333,
+      "F1 CV (validação)": 0.9371077163,
+      "F1 CV (desvio)": 0.0340464727,
+      "AUC CV (validação)": 0.9539731682,
+      "Tempo (s)": 4.3426132202
+    },
+    {
+      "Dataset": "Câncer de Mama",
+      "Modelo": "Random Forest",
+      "Acurácia": 0.9649122807,
+      "Precisão": 0.9672297297,
+      "Recall": 0.9573412698,
+      "F1": 0.961911126,
+      "ROC AUC": 0.9963624339,
+      "F1 CV (validação)": 0.9601192097,
+      "F1 CV (desvio)": 0.0120247636,
+      "AUC CV (validação)": 0.9904024768,
+      "Tempo (s)": 17.7096838951
+    },
+    {
+      "Dataset": "Câncer de Mama",
+      "Modelo": "Gradient Boosting",
+      "Acurácia": 0.9561403509,
+      "Precisão": 0.9605128205,
+      "Recall": 0.9454365079,
+      "F1": 0.9521289997,
+      "ROC AUC": 0.9933862434,
+      "F1 CV (validação)": 0.9668470478,
+      "F1 CV (desvio)": 0.0159805209,
+      "AUC CV (validação)": 0.9946336429,
+      "Tempo (s)": 14.7230100632
+    },
+    {
+      "Dataset": "Câncer de Mama",
+      "Modelo": "SVM",
+      "Acurácia": 0.9824561404,
+      "Precisão": 0.9864864865,
+      "Recall": 0.9761904762,
+      "F1": 0.980955563,
+      "ROC AUC": 0.9970238095,
+      "F1 CV (validação)": 0.9738136201,
+      "F1 CV (desvio)": 0.0141494256,
+      "AUC CV (validação)": 0.9956656347,
+      "Tempo (s)": 2.4788057804
+    },
+    {
+      "Dataset": "Eleições (Literary Digest)",
+      "Modelo": "Decision Tree",
+      "Acurácia": 0.6896551724,
+      "Precisão": 0.7146464646,
+      "Recall": 0.7043269231,
+      "F1": 0.688172043,
+      "ROC AUC": 0.8149038462,
+      "F1 CV (validação)": 0.8419799791,
+      "F1 CV (desvio)": 0.0705752143,
+      "AUC CV (validação)": 0.8637762238,
+      "Tempo (s)": 2.1779046059
+    },
+    {
+      "Dataset": "Eleições (Literary Digest)",
+      "Modelo": "Random Forest",
+      "Acurácia": 0.7586206897,
+      "Precisão": 0.7571428571,
+      "Recall": 0.7596153846,
+      "F1": 0.7574671446,
+      "ROC AUC": 0.8221153846,
+      "F1 CV (validação)": 0.7947236676,
+      "F1 CV (desvio)": 0.0234643568,
+      "AUC CV (validação)": 0.8577505828,
+      "Tempo (s)": 14.0497386456
+    },
+    {
+      "Dataset": "Eleições (Literary Digest)",
+      "Modelo": "Gradient Boosting",
+      "Acurácia": 0.724137931,
+      "Precisão": 0.7211538462,
+      "Recall": 0.7211538462,
+      "F1": 0.7211538462,
+      "ROC AUC": 0.8605769231,
+      "F1 CV (validação)": 0.8055039549,
+      "F1 CV (desvio)": 0.0719733537,
+      "AUC CV (validação)": 0.8884848485,
+      "Tempo (s)": 9.5719685555
+    },
+    {
+      "Dataset": "Eleições (Literary Digest)",
+      "Modelo": "SVM",
+      "Acurácia": 0.7931034483,
+      "Precisão": 0.7908653846,
+      "Recall": 0.7908653846,
+      "F1": 0.7908653846,
+      "ROC AUC": 0.8269230769,
+      "F1 CV (validação)": 0.8047041847,
+      "F1 CV (desvio)": 0.0340696934,
+      "AUC CV (validação)": 0.914009324,
+      "Tempo (s)": 2.4598529339
+    },
+    {
+      "Dataset": "Fishmorph (Ordem)",
+      "Modelo": "Decision Tree",
+      "Acurácia": 0.626730885,
+      "Precisão": 0.5335780058,
+      "Recall": 0.5847471034,
+      "F1": 0.5475623724,
+      "ROC AUC": 0.7879205943,
+      "F1 CV (validação)": 0.4946352122,
+      "F1 CV (desvio)": 0.0149568777,
+      "AUC CV (validação)": 0.7393409496,
+      "Tempo (s)": 10.2873840332
+    },
+    {
+      "Dataset": "Fishmorph (Ordem)",
+      "Modelo": "Random Forest",
+      "Acurácia": 0.7579771222,
+      "Precisão": 0.6766958776,
+      "Recall": 0.7705615994,
+      "F1": 0.7031250645,
+      "ROC AUC": 0.9782261035,
+      "F1 CV (validação)": 0.6406545469,
+      "F1 CV (desvio)": 0.0227271307,
+      "AUC CV (validação)": 0.9588414187,
+      "Tempo (s)": 101.873197794
+    },
+    {
+      "Dataset": "Fishmorph (Ordem)",
+      "Modelo": "Gradient Boosting",
+      "Acurácia": 0.7989163155,
+      "Precisão": 0.7664727414,
+      "Recall": 0.6314395319,
+      "F1": 0.6796145751,
+      "ROC AUC": 0.982059211,
+      "F1 CV (validação)": 0.6214876422,
+      "F1 CV (desvio)": 0.0338273734,
+      "AUC CV (validação)": 0.9636760274,
+      "Tempo (s)": 375.0173711777
+    },
+    {
+      "Dataset": "Fishmorph (Ordem)",
+      "Modelo": "SVM",
+      "Acurácia": 0.8085490668,
+      "Precisão": 0.789209971,
+      "Recall": 0.6943646434,
+      "F1": 0.7268157002,
+      "ROC AUC": 0.9688661318,
+      "F1 CV (validação)": 0.6376447587,
+      "F1 CV (desvio)": 0.0150143779,
+      "AUC CV (validação)": 0.9564002479,
+      "Tempo (s)": 140.0528151989
+    },
+    {
+      "Dataset": "Cardiopatia",
+      "Modelo": "Decision Tree",
+      "Acurácia": 0.8206521739,
+      "Precisão": 0.8200992556,
+      "Recall": 0.8238880918,
+      "F1": 0.8200088928,
+      "ROC AUC": 0.8890483022,
+      "F1 CV (validação)": 0.8276901839,
+      "F1 CV (desvio)": 0.0384571524,
+      "AUC CV (validação)": 0.9066093778,
+      "Tempo (s)": 1.3069193363
+    },
+    {
+      "Dataset": "Cardiopatia",
+      "Modelo": "Random Forest",
+      "Acurácia": 0.8858695652,
+      "Precisão": 0.8848735467,
+      "Recall": 0.8839072214,
+      "F1": 0.8843633099,
+      "ROC AUC": 0.9274270684,
+      "F1 CV (validação)": 0.8560192391,
+      "F1 CV (desvio)": 0.0401544816,
+      "AUC CV (validação)": 0.9304450663,
+      "Tempo (s)": 8.7641370296
+    },
+    {
+      "Dataset": "Cardiopatia",
+      "Modelo": "Gradient Boosting",
+      "Acurácia": 0.8695652174,
+      "Precisão": 0.8680057389,
+      "Recall": 0.8680057389,
+      "F1": 0.8680057389,
+      "ROC AUC": 0.9131994261,
+      "F1 CV (validação)": 0.8669240844,
+      "F1 CV (desvio)": 0.0194683742,
+      "AUC CV (validação)": 0.9251948152,
+      "Tempo (s)": 5.9060513973
+    },
+    {
+      "Dataset": "Cardiopatia",
+      "Modelo": "SVM",
+      "Acurácia": 0.8641304348,
+      "Precisão": 0.8628191298,
+      "Recall": 0.8619081779,
+      "F1": 0.8623372737,
+      "ROC AUC": 0.931372549,
+      "F1 CV (validação)": 0.8510408788,
+      "F1 CV (desvio)": 0.0378885628,
+      "AUC CV (validação)": 0.9149741596,
+      "Tempo (s)": 1.9054577351
+    },
+    {
+      "Dataset": "Estresse Estudantil",
+      "Modelo": "Decision Tree",
+      "Acurácia": 0.8727272727,
+      "Precisão": 0.885026738,
+      "Recall": 0.8728728729,
+      "F1": 0.875251022,
+      "ROC AUC": 0.9635290256,
+      "F1 CV (validação)": 0.8853696381,
+      "F1 CV (desvio)": 0.025081739,
+      "AUC CV (validação)": 0.9616684973,
+      "Tempo (s)": 1.0789480209
+    },
+    {
+      "Dataset": "Estresse Estudantil",
+      "Modelo": "Random Forest",
+      "Acurácia": 0.8863636364,
+      "Precisão": 0.8894607843,
+      "Recall": 0.8865115115,
+      "F1": 0.8872383324,
+      "ROC AUC": 0.9850432624,
+      "F1 CV (validação)": 0.8855320478,
+      "F1 CV (desvio)": 0.0260229543,
+      "AUC CV (validação)": 0.9818472254,
+      "Tempo (s)": 8.2889230251
+    },
+    {
+      "Dataset": "Estresse Estudantil",
+      "Modelo": "Gradient Boosting",
+      "Acurácia": 0.8636363636,
+      "Precisão": 0.8637770898,
+      "Recall": 0.863988989,
+      "F1": 0.8631214313,
+      "ROC AUC": 0.9819112777,
+      "F1 CV (validação)": 0.887324942,
+      "F1 CV (desvio)": 0.0255377911,
+      "AUC CV (validação)": 0.9811686863,
+      "Tempo (s)": 11.3379914761
+    },
+    {
+      "Dataset": "Estresse Estudantil",
+      "Modelo": "SVM",
+      "Acurácia": 0.8863636364,
+      "Precisão": 0.9158249158,
+      "Recall": 0.8863863864,
+      "F1": 0.8889656026,
+      "ROC AUC": 0.9839424184,
+      "F1 CV (validação)": 0.8827164745,
+      "F1 CV (desvio)": 0.0318577669,
+      "AUC CV (validação)": 0.9825056654,
+      "Tempo (s)": 1.6704523563
+    },
+    {
+      "Dataset": "Ultimate Pokémon",
+      "Modelo": "Decision Tree",
+      "Acurácia": 0.2292682927,
+      "Precisão": 0.1984184193,
+      "Recall": 0.1954124337,
+      "F1": 0.191261972,
+      "ROC AUC": 0.6161479401,
+      "F1 CV (validação)": 0.2011294171,
+      "F1 CV (desvio)": 0.0215026484,
+      "AUC CV (validação)": 0.6074266105,
+      "Tempo (s)": 1.9176726341
+    },
+    {
+      "Dataset": "Ultimate Pokémon",
+      "Modelo": "Random Forest",
+      "Acurácia": 0.287804878,
+      "Precisão": 0.2335774113,
+      "Recall": 0.2291933678,
+      "F1": 0.2194175008,
+      "ROC AUC": 0.7808207616,
+      "F1 CV (validação)": 0.2519660575,
+      "F1 CV (desvio)": 0.0262608908,
+      "AUC CV (validação)": 0.7664486916,
+      "Tempo (s)": 12.5095825195
+    },
+    {
+      "Dataset": "Ultimate Pokémon",
+      "Modelo": "Gradient Boosting",
+      "Acurácia": 0.3073170732,
+      "Precisão": 0.2681174089,
+      "Recall": 0.25227877,
+      "F1": 0.2488882668,
+      "ROC AUC": 0.7736650571,
+      "F1 CV (validação)": 0.2463849792,
+      "F1 CV (desvio)": 0.0327989276,
+      "AUC CV (validação)": 0.7457461898,
+      "Tempo (s)": 66.927719593
+    },
+    {
+      "Dataset": "Ultimate Pokémon",
+      "Modelo": "SVM",
+      "Acurácia": 0.2243902439,
+      "Precisão": 0.173780293,
+      "Recall": 0.1918397748,
+      "F1": 0.1790309005,
+      "ROC AUC": 0.7503216283,
+      "F1 CV (validação)": 0.2383352638,
+      "F1 CV (desvio)": 0.0246776536,
+      "AUC CV (validação)": 0.7099739228,
+      "Tempo (s)": 4.159965992
+    }
+  ],
+  "diagnostico": [
+    {
+      "Dataset": "Câncer de Mama",
+      "Modelo": "Decision Tree",
+      "F1 treino (CV)": 0.9836877698,
+      "F1 validação (CV)": 0.9371077163,
+      "Gap": 0.0465800536,
+      "Diagnóstico": "Equilibrado"
+    },
+    {
+      "Dataset": "Câncer de Mama",
+      "Modelo": "Random Forest",
+      "F1 treino (CV)": 0.995886999,
+      "F1 validação (CV)": 0.9601192097,
+      "Gap": 0.0357677893,
+      "Diagnóstico": "Equilibrado"
+    },
+    {
+      "Dataset": "Câncer de Mama",
+      "Modelo": "Gradient Boosting",
+      "F1 treino (CV)": 1.0,
+      "F1 validação (CV)": 0.9668470478,
+      "Gap": 0.0331529522,
+      "Diagnóstico": "Equilibrado"
+    },
+    {
+      "Dataset": "Câncer de Mama",
+      "Modelo": "SVM",
+      "F1 treino (CV)": 0.982248153,
+      "F1 validação (CV)": 0.9738136201,
+      "Gap": 0.0084345329,
+      "Diagnóstico": "Equilibrado"
+    },
+    {
+      "Dataset": "Eleições (Literary Digest)",
+      "Modelo": "Decision Tree",
+      "F1 treino (CV)": 0.9112407673,
+      "F1 validação (CV)": 0.8419799791,
+      "Gap": 0.0692607882,
+      "Diagnóstico": "Equilibrado"
+    },
+    {
+      "Dataset": "Eleições (Literary Digest)",
+      "Modelo": "Random Forest",
+      "F1 treino (CV)": 1.0,
+      "F1 validação (CV)": 0.7947236676,
+      "Gap": 0.2052763324,
+      "Diagnóstico": "Alta variância (overfitting)"
+    },
+    {
+      "Dataset": "Eleições (Literary Digest)",
+      "Modelo": "Gradient Boosting",
+      "F1 treino (CV)": 0.9587162148,
+      "F1 validação (CV)": 0.8055039549,
+      "Gap": 0.1532122598,
+      "Diagnóstico": "Alta variância (overfitting)"
+    },
+    {
+      "Dataset": "Eleições (Literary Digest)",
+      "Modelo": "SVM",
+      "F1 treino (CV)": 0.8885812719,
+      "F1 validação (CV)": 0.8047041847,
+      "Gap": 0.0838770872,
+      "Diagnóstico": "Equilibrado"
+    },
+    {
+      "Dataset": "Fishmorph (Ordem)",
+      "Modelo": "Decision Tree",
+      "F1 treino (CV)": 0.9664730134,
+      "F1 validação (CV)": 0.4946352122,
+      "Gap": 0.4718378011,
+      "Diagnóstico": "Alta variância (overfitting)"
+    },
+    {
+      "Dataset": "Fishmorph (Ordem)",
+      "Modelo": "Random Forest",
+      "F1 treino (CV)": 0.9308777622,
+      "F1 validação (CV)": 0.6406545469,
+      "Gap": 0.2902232153,
+      "Diagnóstico": "Alta variância (overfitting)"
+    },
+    {
+      "Dataset": "Fishmorph (Ordem)",
+      "Modelo": "Gradient Boosting",
+      "F1 treino (CV)": 1.0,
+      "F1 validação (CV)": 0.6214876422,
+      "Gap": 0.3785123578,
+      "Diagnóstico": "Alta variância (overfitting)"
+    },
+    {
+      "Dataset": "Fishmorph (Ordem)",
+      "Modelo": "SVM",
+      "F1 treino (CV)": 0.9313676041,
+      "F1 validação (CV)": 0.6376447587,
+      "Gap": 0.2937228455,
+      "Diagnóstico": "Alta variância (overfitting)"
+    },
+    {
+      "Dataset": "Cardiopatia",
+      "Modelo": "Decision Tree",
+      "F1 treino (CV)": 0.8540744088,
+      "F1 validação (CV)": 0.8276901839,
+      "Gap": 0.0263842249,
+      "Diagnóstico": "Equilibrado"
+    },
+    {
+      "Dataset": "Cardiopatia",
+      "Modelo": "Random Forest",
+      "F1 treino (CV)": 0.9024969919,
+      "F1 validação (CV)": 0.8560192391,
+      "Gap": 0.0464777528,
+      "Diagnóstico": "Equilibrado"
+    },
+    {
+      "Dataset": "Cardiopatia",
+      "Modelo": "Gradient Boosting",
+      "F1 treino (CV)": 1.0,
+      "F1 validação (CV)": 0.8669240844,
+      "Gap": 0.1330759156,
+      "Diagnóstico": "Alta variância (overfitting)"
+    },
+    {
+      "Dataset": "Cardiopatia",
+      "Modelo": "SVM",
+      "F1 treino (CV)": 0.8549756718,
+      "F1 validação (CV)": 0.8510408788,
+      "Gap": 0.003934793,
+      "Diagnóstico": "Equilibrado"
+    },
+    {
+      "Dataset": "Estresse Estudantil",
+      "Modelo": "Decision Tree",
+      "F1 treino (CV)": 0.8970197427,
+      "F1 validação (CV)": 0.8853696381,
+      "Gap": 0.0116501046,
+      "Diagnóstico": "Equilibrado"
+    },
+    {
+      "Dataset": "Estresse Estudantil",
+      "Modelo": "Random Forest",
+      "F1 treino (CV)": 0.9841568343,
+      "F1 validação (CV)": 0.8855320478,
+      "Gap": 0.0986247865,
+      "Diagnóstico": "Equilibrado"
+    },
+    {
+      "Dataset": "Estresse Estudantil",
+      "Modelo": "Gradient Boosting",
+      "F1 treino (CV)": 1.0,
+      "F1 validação (CV)": 0.887324942,
+      "Gap": 0.112675058,
+      "Diagnóstico": "Alta variância (overfitting)"
+    },
+    {
+      "Dataset": "Estresse Estudantil",
+      "Modelo": "SVM",
+      "F1 treino (CV)": 1.0,
+      "F1 validação (CV)": 0.8827164745,
+      "Gap": 0.1172835255,
+      "Diagnóstico": "Alta variância (overfitting)"
+    },
+    {
+      "Dataset": "Ultimate Pokémon",
+      "Modelo": "Decision Tree",
+      "F1 treino (CV)": 0.6300007664,
+      "F1 validação (CV)": 0.2011294171,
+      "Gap": 0.4288713493,
+      "Diagnóstico": "Viés e variância altos"
+    },
+    {
+      "Dataset": "Ultimate Pokémon",
+      "Modelo": "Random Forest",
+      "F1 treino (CV)": 0.9791279541,
+      "F1 validação (CV)": 0.2519660575,
+      "Gap": 0.7271618966,
+      "Diagnóstico": "Alta variância (overfitting)"
+    },
+    {
+      "Dataset": "Ultimate Pokémon",
+      "Modelo": "Gradient Boosting",
+      "F1 treino (CV)": 1.0,
+      "F1 validação (CV)": 0.2463849792,
+      "Gap": 0.7536150208,
+      "Diagnóstico": "Alta variância (overfitting)"
+    },
+    {
+      "Dataset": "Ultimate Pokémon",
+      "Modelo": "SVM",
+      "F1 treino (CV)": 0.8913705967,
+      "F1 validação (CV)": 0.2383352638,
+      "Gap": 0.6530353329,
+      "Diagnóstico": "Alta variância (overfitting)"
+    }
+  ],
+  "escolhas": [
+    {
+      "Dataset": "Câncer de Mama",
+      "Problema (RF e GB)": "Equilibrado",
+      "Escolha RF x GB": "Gradient Boosting",
+      "Melhor dos 4 (F1 CV)": "SVM",
+      "Justificativa": "O dataset está **equilibrado**: os dois ensembles generalizam bem (gap de 0.036 no Random Forest e 0.033 no Gradient Boosting), sem sinal de viés nem de variância altos. Como linha de base, a árvore de decisão isolada teve F1 de validação 0.937 (gap 0.047); o Random Forest chegou a 0.960 e o Gradient Boosting a 0.967. A diferença de F1 entre os dois (0.007) é menor que o desvio-padrão entre os folds (0.016), um empate técnico. O critério de desempate é a estabilidade: o **Gradient Boosting** tem o menor gap (0.033 contra 0.036). A curva de aprendizado do Gradient Boosting já está estável: mais dados do mesmo tipo ajudariam pouco."
+    },
+    {
+      "Dataset": "Eleições (Literary Digest)",
+      "Problema (RF e GB)": "Alta variância (overfitting)",
+      "Escolha RF x GB": "Gradient Boosting",
+      "Melhor dos 4 (F1 CV)": "Decision Tree",
+      "Justificativa": "O dataset tem **alta variância**: os dois ensembles ajustam o treino muito melhor que a validação (gap de 0.205 no Random Forest e 0.153 no Gradient Boosting). Na teoria, é o caso do Random Forest, cuja média de árvores reduz variância. Como linha de base, a árvore de decisão isolada teve F1 de validação 0.842 (gap 0.069); o Random Forest chegou a 0.795 e o Gradient Boosting a 0.806. A diferença de F1 entre os dois (0.011) é menor que o desvio-padrão entre os folds (0.072), um empate técnico. O critério de desempate é a estabilidade: o **Gradient Boosting** tem o menor gap (0.153 contra 0.205). A evidência contraria a teoria: com os hiperparâmetros encontrados (taxa de aprendizado, profundidade, regularização), o Gradient Boosting controlou o problema melhor que o Random Forest neste dataset. A curva de aprendizado do Gradient Boosting já está estável: mais dados do mesmo tipo ajudariam pouco."
+    },
+    {
+      "Dataset": "Fishmorph (Ordem)",
+      "Problema (RF e GB)": "Alta variância (overfitting)",
+      "Escolha RF x GB": "Random Forest",
+      "Melhor dos 4 (F1 CV)": "Random Forest",
+      "Justificativa": "O dataset tem **alta variância**: os dois ensembles ajustam o treino muito melhor que a validação (gap de 0.290 no Random Forest e 0.379 no Gradient Boosting). Na teoria, é o caso do Random Forest, cuja média de árvores reduz variância. Como linha de base, a árvore de decisão isolada teve F1 de validação 0.495 (gap 0.472); o Random Forest chegou a 0.641 e o Gradient Boosting a 0.621. A diferença de F1 entre os dois (0.019) é menor que o desvio-padrão entre os folds (0.034), um empate técnico. O critério de desempate é a estabilidade: o **Random Forest** tem o menor gap (0.290 contra 0.379). A evidência confirma a teoria. A curva de aprendizado do Random Forest ainda sobe no fim (+0.038 de F1 na segunda metade): mais exemplos tendem a reduzir a variância restante."
+    },
+    {
+      "Dataset": "Cardiopatia",
+      "Problema (RF e GB)": "Misto (um modelo superajusta, o outro não)",
+      "Escolha RF x GB": "Random Forest",
+      "Melhor dos 4 (F1 CV)": "Gradient Boosting",
+      "Justificativa": "O diagnóstico é **misto**: o Gradient Boosting superajusta (gap 0.133), o outro não (gap 0.046). Como linha de base, a árvore de decisão isolada teve F1 de validação 0.828 (gap 0.026); o Random Forest chegou a 0.856 e o Gradient Boosting a 0.867. A diferença de F1 entre os dois (0.011) é menor que o desvio-padrão entre os folds (0.040), um empate técnico. O critério de desempate é a estabilidade: o **Random Forest** tem o menor gap (0.046 contra 0.133). A curva de aprendizado do Random Forest já está estável: mais dados do mesmo tipo ajudariam pouco."
+    },
+    {
+      "Dataset": "Estresse Estudantil",
+      "Problema (RF e GB)": "Misto (um modelo superajusta, o outro não)",
+      "Escolha RF x GB": "Random Forest",
+      "Melhor dos 4 (F1 CV)": "Gradient Boosting",
+      "Justificativa": "O diagnóstico é **misto**: o Gradient Boosting superajusta (gap 0.113), o outro não (gap 0.099). Como linha de base, a árvore de decisão isolada teve F1 de validação 0.885 (gap 0.012); o Random Forest chegou a 0.886 e o Gradient Boosting a 0.887. A diferença de F1 entre os dois (0.002) é menor que o desvio-padrão entre os folds (0.026), um empate técnico. O critério de desempate é a estabilidade: o **Random Forest** tem o menor gap (0.099 contra 0.113). A curva de aprendizado do Random Forest já está estável: mais dados do mesmo tipo ajudariam pouco."
+    },
+    {
+      "Dataset": "Ultimate Pokémon",
+      "Problema (RF e GB)": "Alta variância (overfitting)",
+      "Escolha RF x GB": "Random Forest",
+      "Melhor dos 4 (F1 CV)": "Random Forest",
+      "Justificativa": "O dataset tem **alta variância**: os dois ensembles ajustam o treino muito melhor que a validação (gap de 0.727 no Random Forest e 0.754 no Gradient Boosting). Na teoria, é o caso do Random Forest, cuja média de árvores reduz variância. Como linha de base, a árvore de decisão isolada teve F1 de validação 0.201 (gap 0.429); o Random Forest chegou a 0.252 e o Gradient Boosting a 0.246. A diferença de F1 entre os dois (0.006) é menor que o desvio-padrão entre os folds (0.033), um empate técnico. O critério de desempate é a estabilidade: o **Random Forest** tem o menor gap (0.727 contra 0.754). A evidência confirma a teoria. O F1 de validação baixo, mesmo com o treino quase perfeito, mostra que estes atributos explicam pouco do alvo: trocar de modelo não muda muito o resultado. A curva de aprendizado do Random Forest ainda sobe no fim (+0.019 de F1 na segunda metade): mais exemplos tendem a reduzir a variância restante."
+    }
+  ]
+}

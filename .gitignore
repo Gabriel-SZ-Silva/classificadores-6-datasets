@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# Dados baixados (o pipeline baixa de novo quando faltar)
+data/raw/
+
+# Notebook
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Cache da última execução (regera resultados/ com `python -m classificadores relatorio`)
+resultados/.execucao.pkl
